@@ -1,5 +1,7 @@
 [ignore]
 
+.*/node_modules/react-native/.*
+
 # We fork some components by platform.
 .*/*[.]android.js
 

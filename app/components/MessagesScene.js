@@ -3,8 +3,8 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default class WelcomeScene extends Component {
-  propTypes = {
+export default class MessagesScene extends Component {
+  propTypes() {
     title: React.PropTypes.string
   }
 
@@ -17,7 +17,7 @@ export default class WelcomeScene extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Hi! My name is {this.props.title}.</Text>
+        <Text>Hi! This is the Messages Screen.</Text>
       </View>
     )
   }
